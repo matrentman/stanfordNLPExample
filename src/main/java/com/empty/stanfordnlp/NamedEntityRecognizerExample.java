@@ -12,8 +12,8 @@ public class NamedEntityRecognizerExample {
     public static void main(String[] args) {
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String text = "Hey! My name is Michael Trentman and I have a friend his name is Tom" +
-                      " We both are living in Cincinnati, Ohio.";
+        String text = "Hey! My name is Michael Trentman and I have a friend his name is Tom. " +
+                      "We both are living in Cincinnati, Ohio.";
 
         CoreDocument coreDocument = new CoreDocument(text);
 
