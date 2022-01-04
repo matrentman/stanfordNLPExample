@@ -22,7 +22,7 @@ public class LemmatizationExample {
         for (CoreLabel coreLabel : coreLabelList) {
             String lemma = coreLabel.lemma();
 
-            System.out.println(coreLabel.originalText() + " ++ " + lemma);
+            System.out.println(coreLabel.originalText() + " == " + lemma);
 
         }
 
