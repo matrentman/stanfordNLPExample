@@ -1,6 +1,5 @@
 package com.empty.stanfordnlp;
 
-import edu.stanford.nlp.ling.CoreAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
@@ -8,6 +7,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
 import java.util.List;
 
+// uses ner property
 public class NamedEntityRecognizerExample {
     public static void main(String[] args) {
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
